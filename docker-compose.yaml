@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  client-server:
+    container_name: client-server
+    build:
+      context: .
+      dockerfile: ./next/docker/Dockerfile
+    ports:
+      - "3000:3000"
+      - "6006:6006"
+    tty: true
+    volumes: 
+      - ./next:/usr/src/app:delegated

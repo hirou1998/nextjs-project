@@ -1,0 +1,33 @@
+{
+  "name": "next-laravel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirou1998/nextjs-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirou1998/nextjs-project/issues"
+  },
+  "homepage": "https://github.com/hirou1998/nextjs-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.3.5"
+  }
+}
